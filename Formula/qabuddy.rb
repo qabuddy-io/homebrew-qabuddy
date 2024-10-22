@@ -1,4 +1,4 @@
-class Getfilesize < Formula
+class Qabuddy < Formula
   desc "CLI tool to automate the tests of your apps through QABuddy.io"
   homepage "https://github.com/qabuddy-io/homebrew-qabuddy"
   url "https://github.com/qabuddy-io/homebrew-qabuddy/releases/download/1.0.0/cli.tar.gz"
