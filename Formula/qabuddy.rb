@@ -7,6 +7,6 @@ class Qabuddy < Formula
   version "1.0.0"
 
   def install
-    bin.install "qabuddy"
+    bin.install "cli"
   end
 end
