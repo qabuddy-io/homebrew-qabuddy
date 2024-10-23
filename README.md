@@ -19,7 +19,7 @@ brew install qabuddy
 To use QABuddy CLI, specify the platform and the type of test cases you wish to run. If no parameter is specified, all test cases will be run.
 
 ```sh
-qabuddy [ios|android] [--choose] [--clear]
+qabuddy [ios|android] [--create] [--choose] [--clear] 
 ```
 
 
@@ -27,34 +27,41 @@ qabuddy [ios|android] [--choose] [--clear]
 
 The first thing the script asks for is your **API key** associated with your user on the QABuddy web app. Make sure you have your API key ready before running the script.
 
-### Commands
+### Commands and parameters
 
-- **iOS**: Run test cases on iOS simulators.
-- **Android**: Run test cases on Android emulators.
+- **ios**: Run test cases on iOS simulators.
+- **android**: Run test cases on Android emulators.
 - **No Parameter**: Run all available test cases on both iOS and Android.
-- **--clear**: Clear the API Key.
+- **--create**: Create and run a new Test Case on the fly.
 - **--choose**: Manually choose the Test Case to run.
+- **--clear**: Clear the API Key.
 
 ### Example Commands
 
-- Run all test cases:
+- Run all enqueued test cases:
 
   ```sh
   qabuddy
   ```
 
-- Run only iOS test cases:
+- Run only iOS enqueud test cases:
 
   ```sh
   qabuddy ios
   ```
 
-- Run only Android test cases:
+- Run only Android enqueud test cases:
 
   ```sh
   qabuddy android
   ```
+  
+- Create and run a new test case using natural language:
 
+  ```sh
+  qabuddy --create
+  ```
+  
 - Manually choose the test case to run:
 
   ```sh
@@ -74,6 +81,7 @@ All test cases must be created and managed on the [QABuddy.io](https://qabuddy.i
 ## Features
 
 - **Cross-Platform Testing**: Test both iOS and Android applications with ease.
+- **Write using natural language**: No code needed. Write using only natural language.
 - **Automated Testing**: Run predefined test cases to ensure your applications are functioning correctly.
 - **Easy Integration**: Use `brew` for quick and simple execution without installation overhead.
 
