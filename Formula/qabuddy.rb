@@ -2,7 +2,7 @@ class Qabuddy < Formula
   desc "CLI tool to automate the tests of your apps through QABuddy.io"
   homepage "https://github.com/qabuddy-io/homebrew-qabuddy"
   url "https://github.com/qabuddy-io/homebrew-qabuddy/releases/download/1.1.1/qabuddy.tar.gz"
-  sha256 "8b20c3ac109b516068c1cc00210fecdd64a94f00b066327f6d0038f83f121407"
+  sha256 "68568f53e0f33852a03b53951a098d8f198633b50e9c45f696e401df54597ac6"
   license "MIT"
   version "1.1.1"
 
