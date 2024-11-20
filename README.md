@@ -19,7 +19,7 @@ brew install qabuddy
 To use QABuddy CLI, specify the platform and the type of test cases you wish to run. If no parameter is specified, all test cases will be run.
 
 ```sh
-qabuddy [ios|android] [--choose] [--clear] [--project] [--testcase]
+qabuddy [--version] [--help] [--choose] [--clear] [--project] [--testcase] [--clear]
 ```
 
 
@@ -28,34 +28,15 @@ qabuddy [ios|android] [--choose] [--clear] [--project] [--testcase]
 The first thing the script asks for is your **API key** associated with your user on the QABuddy web app. Make sure you have your API key ready before running the script.
 
 ### Commands
-
-- **iOS**: Run test cases on iOS simulators.
-- **Android**: Run test cases on Android emulators.
-- **No Parameter**: Run all available test cases on both iOS and Android.
-- **--clear**: Clear the API Key.
 - **--choose**: Manually choose the Test Case to run.
 - **--project**: Manually choose the Test Case to run, specifying the project.
 - **--testcase**: Run a specific testcase, specifying its id.
+- **--clear**: Clear saved api key.
+- **--version**: Gets current version.
+- **--help**: Gets a list of supported commands.
 
 ### Example Commands
 
-- Run all test cases:
-
-  ```sh
-  qabuddy
-  ```
-
-- Run only iOS test cases:
-
-  ```sh
-  qabuddy ios
-  ```
-
-- Run only Android test cases:
-
-  ```sh
-  qabuddy android
-  ```
 
 - Manually choose the test case to run:
 
@@ -72,10 +53,20 @@ The first thing the script asks for is your **API key** associated with your use
   ```sh
   qabuddy --testcase <id>
   ```
+- Create and run a testcase on the fly:
+
+  ```sh
+  qabuddy --create
+  ```
 - Clear your Api Key:
 
   ```sh
   qabuddy --clear
+  ```
+- Command help:
+
+  ```sh
+  qabuddy --help
   ```
 
 ## Test Case Management
