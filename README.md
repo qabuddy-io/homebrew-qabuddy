@@ -19,7 +19,7 @@ brew install qabuddy
 To use QABuddy CLI, specify the platform and the type of test cases you wish to run. If no parameter is specified, all test cases will be run.
 
 ```sh
-qabuddy [--version] [--help] [--choose] [--clear] [--project] [--testcase] [--clear]
+qabuddy [--version] [--help] [--choose] [--project <id>] [--testcase <id>] [--clear]
 ```
 
 
