@@ -3,7 +3,7 @@
 
 ## Overview
 
-QABuddy CLI is a command-line tool designed to facilitate automated testing of iOS apps on simulators and Android apps on emulators. This tool allows users to run predefined test cases on their apps, ensuring they meet quality standards before release. Test cases need to be created and managed on the main website [QABuddy.io](https://qabuddy.io).
+QABuddy CLI is a command-line tool designed to facilitate automated testing of iOS apps on simulators and Android apps on emulators. This tool allows users to run predefined test cases on their apps, ensuring they meet quality standards before release. Test cases need to be created and managed on the main website [QABuddy.io](https://qabuddyio.vercel.app).
 
 ## Installation
 
@@ -71,7 +71,7 @@ The first thing the script asks for is your **API key** associated with your use
 
 ## Test Case Management
 
-All test cases must be created and managed on the [QABuddy.io](https://qabuddy.io) platform. Ensure you have an account and have set up your test cases on the website before running the QABuddy CLI.
+All test cases must be created and managed on the [QABuddy.io](https://qabuddyio.vercel.app) platform. Ensure you have an account and have set up your test cases on the website before running the QABuddy CLI.
 
 ## Features
 
@@ -89,4 +89,4 @@ For support and feature requests, please visit [our dedicated support page](http
 
 [Luigi](https://x.com/luigidonadel) from QABuddy
 
-[QABuddy.io](https://qabuddy.io) | [GitHub](https://github.com/donadev/qabuddy-cli)
+[QABuddy.io](https://qabuddyio.vercel.app) | [GitHub](https://github.com/donadev/qabuddy-cli)
